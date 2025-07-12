@@ -1,0 +1,6 @@
+ class Sample {
+    public void greet() {
+        System.out.println("Hello");
+    }
+ }
+ // Compile and run: javap -c Sample

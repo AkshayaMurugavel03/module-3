@@ -1,0 +1,3 @@
+ // Use JD-GUI or CFR to decompile compiled Java class files.
+ // 1. Compile a .java file
+ // 2. Open the .class file using JD-GUI

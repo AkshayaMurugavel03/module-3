@@ -1,0 +1,10 @@
+ class ReflectionDemo {
+    public void sayHello() {
+        System.out.println("Hello from reflection!");
+    }
+    public static void main(String[] args) throws Exception {
+        Class<?> cls = Class.forName("ReflectionDemo");
+        Object obj = cls.getDeclaredConstructor().newInstance();
+        cls.getDeclaredMethod("sayHello").invoke(obj);
+    }
+ }
